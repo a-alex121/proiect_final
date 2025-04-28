@@ -13,54 +13,110 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\Tissues">
+      <UniqueIdentifier>{809a4817-578d-4a8d-a3b3-3332763cd359}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Pathogens">
+      <UniqueIdentifier>{bc83f32e-bcb8-4ea3-aa8c-ac4d25be2e90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utility">
+      <UniqueIdentifier>{b8ca52a2-e332-46fe-8d4b-ec5553765993}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Cells">
+      <UniqueIdentifier>{0922f024-52a8-4aa4-8726-50d59f45a6d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Main">
+      <UniqueIdentifier>{02384f8e-0af9-42b1-8332-7b13d3f2a2de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Cells">
+      <UniqueIdentifier>{67907f15-de6e-49a2-ac6b-7b035da8fe94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Pathogens">
+      <UniqueIdentifier>{c0f731be-fdde-49fb-8900-07c898916880}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utility">
+      <UniqueIdentifier>{d27f6c61-c005-4b9b-bfa1-4c8e9ea6b6ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Tissues">
+      <UniqueIdentifier>{91d1d297-470a-49a7-ae5c-1b602408d2b4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\src\Bacteria.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="..\src\cell.cpp">
+      <Filter>Source Files\Cells</Filter>
     </ClCompile>
-    <ClCompile Include="..\src\Cell.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="..\src\immune_cell.cpp">
+      <Filter>Source Files\Cells</Filter>
     </ClCompile>
-    <ClCompile Include="..\src\ImmuneCell.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="..\src\muscle_cell.cpp">
+      <Filter>Source Files\Cells</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\nerve_cell.cpp">
+      <Filter>Source Files\Cells</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\tissue.cpp">
+      <Filter>Source Files\Tissues</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\pathogen.cpp">
+      <Filter>Source Files\Pathogens</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\bacteria.cpp">
+      <Filter>Source Files\Pathogens</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\virus.cpp">
+      <Filter>Source Files\Pathogens</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mitochondria.cpp">
+      <Filter>Source Files\Cells</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\logger.cpp">
+      <Filter>Source Files\Utility</Filter>
     </ClCompile>
     <ClCompile Include="..\src\main.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Main</Filter>
     </ClCompile>
-    <ClCompile Include="..\src\MuscleCell.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\NerveCell.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\Pathogen.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\Virus.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="..\src\muscle_tissue.cpp">
+      <Filter>Source Files\Tissues</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\include\Bacteria.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="..\include\logger.h">
+      <Filter>Header Files\Utility</Filter>
     </ClInclude>
-    <ClInclude Include="..\include\Cell.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="..\include\cell.h">
+      <Filter>Header Files\Cells</Filter>
     </ClInclude>
-    <ClInclude Include="..\include\ImmuneCell.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="..\include\immune_cell.h">
+      <Filter>Header Files\Cells</Filter>
     </ClInclude>
-    <ClInclude Include="..\include\MuscleCell.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="..\include\mitochondria.h">
+      <Filter>Header Files\Cells</Filter>
     </ClInclude>
-    <ClInclude Include="..\include\NerveCell.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="..\include\muscle_cell.h">
+      <Filter>Header Files\Cells</Filter>
     </ClInclude>
-    <ClInclude Include="..\include\Pathogen.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="..\include\nerve_cell.h">
+      <Filter>Header Files\Cells</Filter>
     </ClInclude>
-    <ClInclude Include="..\include\Virus.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="..\include\pathogen.h">
+      <Filter>Header Files\Pathogens</Filter>
     </ClInclude>
+    <ClInclude Include="..\include\bacteria.h">
+      <Filter>Header Files\Pathogens</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\virus.h">
+      <Filter>Header Files\Pathogens</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\tissue.h">
+      <Filter>Header Files\Tissues</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\muscle_tissue.h">
+      <Filter>Header Files\Tissues</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="log.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
   </ItemGroup>
 </Project>

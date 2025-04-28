@@ -1,12 +1,20 @@
 #pragma once
 
-#include "Pathogen.h"
+#include "pathogen.h"
 
 class Bacteria : public Pathogen {
 public:
-    Bacteria(int damage);
+    Bacteria(std::string name, int damage);
     ~Bacteria();
 
-    void attack(Cell* cell);
-    void display() const;
+    static std::string GetType();
+
+    void Attack(Cell* cell);
+    void Display() const;
+
+private:
+
+protected:
+	static std::string type;
+
 };

@@ -1,19 +1,36 @@
 #pragma once
 
 #include <iostream>
+#include "mitochondria.h"
+#include "logger.h"
 
 class Cell {
-protected:
-    int energy;
 
 public:
-    Cell(int energy);
-    Cell(const Cell& other);
-    virtual ~Cell();
+   Cell(std::string name, int energy);
+   Cell(const Cell& other);
+   virtual ~Cell();
 
-    int getEnergy() const;
-    void setEnergy(int energy);
+   static std::string GetType();
+   static void SetMitochondrialEnergy(int energy);
+   static int GetMitochondrialEnergy();
 
-    virtual void display() const;
-    virtual Cell* divide() = 0;
+   int GetEnergy() const;
+   void SetEnergy(int energy);
+
+   std::string GetName() const;
+
+   virtual void Display() const;
+   virtual Cell* Divide() = 0;
+
+   void ProduceEnergy();
+
+protected:
+	std::string name;
+	int energy;
+
+private:
+	static std::string type;
+	static int mitochondrial_energy;
+	Mitochondria mitochondria;
 };

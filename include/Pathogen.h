@@ -5,16 +5,26 @@
 class Cell;
 
 class Pathogen {
-protected:
-    int damage;
 
 public:
-    Pathogen(int damage);
+    Pathogen(std::string name, int damage);
     virtual ~Pathogen();
 
-    int getDamage() const;
-    void setDamage(int damage);
+	static std::string GetType();
 
-    virtual void attack(Cell* cell);
-    virtual void display() const = 0;
+    int GetDamage() const;
+    void SetDamage(int damage);
+
+	std::string GetName() const;
+
+    virtual void Attack(Cell* cell);
+    virtual void Display() const = 0;
+
+protected:
+    std::string name;
+    int damage;
+
+private:
+	static std::string type;
+
 };
