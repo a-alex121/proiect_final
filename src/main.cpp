@@ -1,57 +1,82 @@
 #include <iostream>
-#include "nerve_cell.h"
-#include "muscle_cell.h"
-#include "immune_cell.h"
+#include "human.h"
+#include "muscle.h"
 #include "pathogen.h"
-#include <vector>
+
+void Continue() {
+	std::cout << "Press Enter to continue...";
+	system("pause >nul");
+	system("cls");
+}
+
+void Live(){
+
+    Human human;
+
+	human.AddMuscle(new Muscle("Biceps"));
+	human.AddMuscle(new Muscle("Triceps"));
+	human.AddMuscle(new Muscle("Quadriceps"));
+	human.AddMuscle(new Muscle("Hamstring"));
+	human.AddMuscle(new Muscle("Deltoid"));
+	human.AddMuscle(new Muscle("Pectoral"));
+	human.AddMuscle(new Muscle("Glute"));
+	human.AddMuscle(new Muscle("Calf"));
+    
+
+    int choice;
+
+    do {
+        std::cout << "\n--- Human Simulation Menu ---\n";
+        std::cout << "1. Eat\n";
+        std::cout << "2. Exercise\n";
+        std::cout << "3. Rest\n";
+        std::cout << "4. Add Pathogen\n";
+        std::cout << "5. Show Human Status\n";
+        std::cout << "0. Exit\n";
+        std::cout << "Enter your choice: ";
+
+        std::cin >> choice;
+
+        switch (choice) {
+        case 1:
+            human.Eat();
+            Continue();
+            break;
+        case 2:
+            human.Exercise();
+            Continue();
+            break;
+        case 3:
+            human.Rest();
+            Continue();
+            break;
+        case 4: {
+            std::string name;
+			int energy;
+            std::cout << "Enter pathogen name and energy: ";
+            std::cin >> name >> energy;
+            human.AddPathogen(new Pathogen(name, energy));
+            std::cout << "Pathogen added. Human is sick now\n";
+            Continue();
+            break;
+        }
+        case 5:
+            std::cout << human;
+            Continue();
+            break;
+        case 0:
+            std::cout << "Exiting...\n";
+            Continue();
+            break;
+        default:
+            std::cout << "Invalid choice. Try again.\n";
+            Continue();
+        }
+    } while (choice != 0);
+}
 
 int main() {
-   NerveCell* n1 = new NerveCell();
-   MuscleCell* m1 = new MuscleCell(); 
-   ImmuneCell* i1 = new ImmuneCell();
+	Live();
 
-   std::vector<Cell*> cells;
-   cells.push_back(n1);
-   cells.push_back(m1); 
-   cells.push_back(i1); 
-
-
-   if (i1->Divide()) { 
-       i1->Display(); 
-       std::cout << "ImmuneCell divided into two cells\n";
-   }
-   else {
-       std::cout << "ImmuneCell does not have enough energy to divide\n";
-   }
-
-   NerveCell* n2 = new NerveCell();
-
-   n1->TransmitSignal(n2); 
-   n1->ActivateMuscle(m1); 
-   m1->Contract(); 
-
-   std::cout << i1->GetType() << std::endl;
-
-   n1->SetEnergy(-1);
-
-   std::cout << "salut " << m1->GetName() <<" " << m1->GetType() <<  " " << m1->GetId();
-
-   m1->ProduceEnergy();
-   i1->ProduceEnergy();
-
-   std::cout << i1->GetName() << " energy: " << i1->GetEnergy() << std::endl;
-
-   delete m1;
-   delete i1;
-
-
-   MuscleCell* m2 = new MuscleCell();
-
-   delete m2;
-
-  
-
-
-
-   return 0;
+    return 0;
 }

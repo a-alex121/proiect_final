@@ -5,6 +5,8 @@
 
 class Human {
 public:
+	~Human();
+
 	void Eat();
 	void Exercise();
 	void Rest();
@@ -19,7 +21,7 @@ public:
 protected:
 
 private:
-	bool is_healthy;
+	bool IsHealthy() const;
 	std::vector<Muscle*> muscles;
 	std::vector<ImmuneCell*> immune_cells;
 	std::vector<Pathogen*> pathogens;

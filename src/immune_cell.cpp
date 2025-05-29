@@ -3,10 +3,10 @@
 
 ImmuneCell::ImmuneCell() : Cell(10, ImmuneCell::next_id++) {}
 ImmuneCell::ImmuneCell(const ImmuneCell& other) : Cell(other) {}
-ImmuneCell::~ImmuneCell() { std::cout << GetName() << " destroyed. \n"; }
+ImmuneCell::~ImmuneCell() { fout<< GetName() << " destroyed. \n"; }
 
 void ImmuneCell::AttackPathogen(Pathogen* pathogen) {
-    std::cout << GetName() <<" attacks pathogen "<< pathogen->GetName() <<"\n";
+    fout<< GetName() <<" attacks pathogen "<< pathogen->GetName() <<"\n";
 	pathogen->SetEnergy(pathogen->GetEnergy() - 5);
     delete this;
 }

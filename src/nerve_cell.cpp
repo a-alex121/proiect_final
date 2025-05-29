@@ -3,15 +3,15 @@
 
 NerveCell::NerveCell() : Cell(70, NerveCell::next_id++) {}
 NerveCell::NerveCell(const NerveCell& other) : Cell(other) {}
-NerveCell::~NerveCell() { std::cout << GetName() << " destroyed. \n"; }
+NerveCell::~NerveCell() { fout<< GetName() << " destroyed. \n"; }
 
 void NerveCell::TransmitSignal(NerveCell* target) {
-    std::cout << GetName() << " transmits signal to " << target->GetName() << std::endl;
+    fout<< GetName() << " transmits signal to " << target->GetName() << std::endl;
 	this->SetEnergy(this->GetEnergy() - 1);
 }
 
 void NerveCell::ActivateMuscle(MuscleCell* muscle_cell) {
-    std::cout << GetName() << " sends signal to " << muscle_cell->GetName() <<"\n";
+    fout<< GetName() << " sends signal to " << muscle_cell->GetName() <<"\n";
 	this->SetEnergy(this->GetEnergy() - 1);
 }
 

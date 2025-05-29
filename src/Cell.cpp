@@ -21,11 +21,11 @@ void Cell::SetEnergy(int energy) {
 	}
 }
 
-void Cell::Display() const { std::cout << "Display Cell " << GetName() << " with energy : " << energy << "\n"; } 
+void Cell::Display() const { fout<< "Display Cell " << GetName() << " with energy : " << energy << "\n"; } 
 
 void Cell::ProduceEnergy() {
 	mitochondria.GiveEnergy(this);
-	std::cout << "Cell " << GetName() << " produced energy\n";
+	fout<< "Cell " << GetName() << " produced energy\n";
 }
 
 std::string Cell::type = "Generic";

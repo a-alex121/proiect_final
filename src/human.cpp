@@ -2,9 +2,25 @@
 #include "human.h"
 #include <iostream>
 
+Human::~Human() {
+	for (auto muscle : muscles) {
+		delete muscle;
+	}
+	for (auto cell : immune_cells) {
+		delete cell;
+	}
+	for (auto pathogen : pathogens) {
+		delete pathogen;
+	}
+}
+
+bool Human::IsHealthy() const {
+	return immune_cells.size() > 0 && pathogens.size() == 0;
+}
+
 void Human::Exercise() {
-	if (!is_healthy) {
-		std::cout << "Cannot exercise, human is not healthy. Rest is recommended.\n";
+	if (!IsHealthy()) {
+		std::cout<< "Cannot exercise, human is not healthy. Rest is recommended.\n";
 	}
 	else {
 		for (int i = 0; i < muscles.size(); i++) {
@@ -15,7 +31,7 @@ void Human::Exercise() {
 }
 
 void Human::Rest() {
-	if (!is_healthy) {
+	if (!IsHealthy()) {
 		for (int i = 0; i < 10; i++) {
 			immune_cells.push_back(new ImmuneCell());
 		}
@@ -55,7 +71,7 @@ void Human::AddMuscle(Muscle* muscle) {
 
 std::ostream& operator<<(std::ostream& os, const Human& human) {
 	os << "Human health details:\n";
-	os << "  Healthy: " << (human.is_healthy ? "Yes" : "No") << "\n";
+	os << "  Healthy: " << (human.IsHealthy() ? "Yes" : "No") << "\n";
 	os << "  Immune cells density: " << human.immune_cells.size() << "\n";
 	os << "  Pathogens: " << human.pathogens.size() << "\n";
 	for (int i = 0; i < human.pathogens.size(); i++) {

@@ -3,10 +3,10 @@
 
 MuscleCell::MuscleCell() : Cell(100, MuscleCell::next_id++) {}
 MuscleCell::MuscleCell(const MuscleCell& other) : Cell(other) {}
-MuscleCell::~MuscleCell() { std::cout << GetName() << " destroyed. \n"; }
+MuscleCell::~MuscleCell() { fout<< GetName() << " destroyed. \n"; }
 
 void MuscleCell::Contract(){
-    std::cout << GetName() << " contracts\n";
+    fout<< GetName() << " contracts\n";
 	this->ConsumeEnergy();
 	this->SetMitochondrialEnergy(this->GetMitochondrialEnergy() + 1); //creste potentialul de producere a energiei pentru mitocondrii
 }
@@ -18,10 +18,10 @@ Cell* MuscleCell::Divide() {
 void MuscleCell::ConsumeEnergy() {
 	if (this->GetEnergy() > 0) {
 		this->SetEnergy(this->GetEnergy() - 2);
-		std::cout << GetName() << " consumed energy, remaining energy: " << this->GetEnergy() << "\n";
+		fout<< GetName() << " consumed energy, remaining energy: " << this->GetEnergy() << "\n";
 	}
 	else {
-		std::cout << GetName() << " has no energy left to consume.\n";
+		fout<< GetName() << " has no energy left to consume.\n";
 	}
 }
 

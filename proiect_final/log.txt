@@ -1,0 +1,480 @@
+MuscleCell1 received 5 energy from Mitochondria
+Cell MuscleCell1 produced energy
+NerveCell1 received 5 energy from Mitochondria
+Cell NerveCell1 produced energy
+NerveCell2 received 5 energy from Mitochondria
+Cell NerveCell2 produced energy
+MuscleCell2 received 5 energy from Mitochondria
+Cell MuscleCell2 produced energy
+NerveCell1 received 5 energy from Mitochondria
+Cell NerveCell1 produced energy
+NerveCell2 received 5 energy from Mitochondria
+Cell NerveCell2 produced energy
+MuscleCell3 received 5 energy from Mitochondria
+Cell MuscleCell3 produced energy
+NerveCell1 received 5 energy from Mitochondria
+Cell NerveCell1 produced energy
+NerveCell2 received 5 energy from Mitochondria
+Cell NerveCell2 produced energy
+MuscleCell4 received 5 energy from Mitochondria
+Cell MuscleCell4 produced energy
+NerveCell1 received 5 energy from Mitochondria
+Cell NerveCell1 produced energy
+NerveCell2 received 5 energy from Mitochondria
+Cell NerveCell2 produced energy
+MuscleCell5 received 5 energy from Mitochondria
+Cell MuscleCell5 produced energy
+NerveCell1 received 5 energy from Mitochondria
+Cell NerveCell1 produced energy
+NerveCell2 received 5 energy from Mitochondria
+Cell NerveCell2 produced energy
+MuscleCell6 received 5 energy from Mitochondria
+Cell MuscleCell6 produced energy
+NerveCell1 received 5 energy from Mitochondria
+Cell NerveCell1 produced energy
+NerveCell2 received 5 energy from Mitochondria
+Cell NerveCell2 produced energy
+MuscleCell7 received 5 energy from Mitochondria
+Cell MuscleCell7 produced energy
+NerveCell1 received 5 energy from Mitochondria
+Cell NerveCell1 produced energy
+NerveCell2 received 5 energy from Mitochondria
+Cell NerveCell2 produced energy
+MuscleCell8 received 5 energy from Mitochondria
+Cell MuscleCell8 produced energy
+NerveCell1 received 5 energy from Mitochondria
+Cell NerveCell1 produced energy
+NerveCell2 received 5 energy from Mitochondria
+Cell NerveCell2 produced energy
+MuscleCell9 received 5 energy from Mitochondria
+Cell MuscleCell9 produced energy
+NerveCell1 received 5 energy from Mitochondria
+Cell NerveCell1 produced energy
+NerveCell2 received 5 energy from Mitochondria
+Cell NerveCell2 produced energy
+MuscleCell10 received 5 energy from Mitochondria
+Cell MuscleCell10 produced energy
+NerveCell1 received 5 energy from Mitochondria
+Cell NerveCell1 produced energy
+NerveCell2 received 5 energy from Mitochondria
+Cell NerveCell2 produced energy
+MuscleCell11 received 5 energy from Mitochondria
+Cell MuscleCell11 produced energy
+NerveCell3 received 5 energy from Mitochondria
+Cell NerveCell3 produced energy
+NerveCell4 received 5 energy from Mitochondria
+Cell NerveCell4 produced energy
+MuscleCell12 received 5 energy from Mitochondria
+Cell MuscleCell12 produced energy
+NerveCell3 received 5 energy from Mitochondria
+Cell NerveCell3 produced energy
+NerveCell4 received 5 energy from Mitochondria
+Cell NerveCell4 produced energy
+MuscleCell13 received 5 energy from Mitochondria
+Cell MuscleCell13 produced energy
+NerveCell3 received 5 energy from Mitochondria
+Cell NerveCell3 produced energy
+NerveCell4 received 5 energy from Mitochondria
+Cell NerveCell4 produced energy
+MuscleCell14 received 5 energy from Mitochondria
+Cell MuscleCell14 produced energy
+NerveCell3 received 5 energy from Mitochondria
+Cell NerveCell3 produced energy
+NerveCell4 received 5 energy from Mitochondria
+Cell NerveCell4 produced energy
+MuscleCell15 received 5 energy from Mitochondria
+Cell MuscleCell15 produced energy
+NerveCell3 received 5 energy from Mitochondria
+Cell NerveCell3 produced energy
+NerveCell4 received 5 energy from Mitochondria
+Cell NerveCell4 produced energy
+MuscleCell16 received 5 energy from Mitochondria
+Cell MuscleCell16 produced energy
+NerveCell3 received 5 energy from Mitochondria
+Cell NerveCell3 produced energy
+NerveCell4 received 5 energy from Mitochondria
+Cell NerveCell4 produced energy
+MuscleCell17 received 5 energy from Mitochondria
+Cell MuscleCell17 produced energy
+NerveCell3 received 5 energy from Mitochondria
+Cell NerveCell3 produced energy
+NerveCell4 received 5 energy from Mitochondria
+Cell NerveCell4 produced energy
+MuscleCell18 received 5 energy from Mitochondria
+Cell MuscleCell18 produced energy
+NerveCell3 received 5 energy from Mitochondria
+Cell NerveCell3 produced energy
+NerveCell4 received 5 energy from Mitochondria
+Cell NerveCell4 produced energy
+MuscleCell19 received 5 energy from Mitochondria
+Cell MuscleCell19 produced energy
+NerveCell3 received 5 energy from Mitochondria
+Cell NerveCell3 produced energy
+NerveCell4 received 5 energy from Mitochondria
+Cell NerveCell4 produced energy
+MuscleCell20 received 5 energy from Mitochondria
+Cell MuscleCell20 produced energy
+NerveCell3 received 5 energy from Mitochondria
+Cell NerveCell3 produced energy
+NerveCell4 received 5 energy from Mitochondria
+Cell NerveCell4 produced energy
+MuscleCell21 received 5 energy from Mitochondria
+Cell MuscleCell21 produced energy
+NerveCell5 received 5 energy from Mitochondria
+Cell NerveCell5 produced energy
+NerveCell6 received 5 energy from Mitochondria
+Cell NerveCell6 produced energy
+MuscleCell22 received 5 energy from Mitochondria
+Cell MuscleCell22 produced energy
+NerveCell5 received 5 energy from Mitochondria
+Cell NerveCell5 produced energy
+NerveCell6 received 5 energy from Mitochondria
+Cell NerveCell6 produced energy
+MuscleCell23 received 5 energy from Mitochondria
+Cell MuscleCell23 produced energy
+NerveCell5 received 5 energy from Mitochondria
+Cell NerveCell5 produced energy
+NerveCell6 received 5 energy from Mitochondria
+Cell NerveCell6 produced energy
+MuscleCell24 received 5 energy from Mitochondria
+Cell MuscleCell24 produced energy
+NerveCell5 received 5 energy from Mitochondria
+Cell NerveCell5 produced energy
+NerveCell6 received 5 energy from Mitochondria
+Cell NerveCell6 produced energy
+MuscleCell25 received 5 energy from Mitochondria
+Cell MuscleCell25 produced energy
+NerveCell5 received 5 energy from Mitochondria
+Cell NerveCell5 produced energy
+NerveCell6 received 5 energy from Mitochondria
+Cell NerveCell6 produced energy
+MuscleCell26 received 5 energy from Mitochondria
+Cell MuscleCell26 produced energy
+NerveCell5 received 5 energy from Mitochondria
+Cell NerveCell5 produced energy
+NerveCell6 received 5 energy from Mitochondria
+Cell NerveCell6 produced energy
+MuscleCell27 received 5 energy from Mitochondria
+Cell MuscleCell27 produced energy
+NerveCell5 received 5 energy from Mitochondria
+Cell NerveCell5 produced energy
+NerveCell6 received 5 energy from Mitochondria
+Cell NerveCell6 produced energy
+MuscleCell28 received 5 energy from Mitochondria
+Cell MuscleCell28 produced energy
+NerveCell5 received 5 energy from Mitochondria
+Cell NerveCell5 produced energy
+NerveCell6 received 5 energy from Mitochondria
+Cell NerveCell6 produced energy
+MuscleCell29 received 5 energy from Mitochondria
+Cell MuscleCell29 produced energy
+NerveCell5 received 5 energy from Mitochondria
+Cell NerveCell5 produced energy
+NerveCell6 received 5 energy from Mitochondria
+Cell NerveCell6 produced energy
+MuscleCell30 received 5 energy from Mitochondria
+Cell MuscleCell30 produced energy
+NerveCell5 received 5 energy from Mitochondria
+Cell NerveCell5 produced energy
+NerveCell6 received 5 energy from Mitochondria
+Cell NerveCell6 produced energy
+MuscleCell31 received 5 energy from Mitochondria
+Cell MuscleCell31 produced energy
+NerveCell7 received 5 energy from Mitochondria
+Cell NerveCell7 produced energy
+NerveCell8 received 5 energy from Mitochondria
+Cell NerveCell8 produced energy
+MuscleCell32 received 5 energy from Mitochondria
+Cell MuscleCell32 produced energy
+NerveCell7 received 5 energy from Mitochondria
+Cell NerveCell7 produced energy
+NerveCell8 received 5 energy from Mitochondria
+Cell NerveCell8 produced energy
+MuscleCell33 received 5 energy from Mitochondria
+Cell MuscleCell33 produced energy
+NerveCell7 received 5 energy from Mitochondria
+Cell NerveCell7 produced energy
+NerveCell8 received 5 energy from Mitochondria
+Cell NerveCell8 produced energy
+MuscleCell34 received 5 energy from Mitochondria
+Cell MuscleCell34 produced energy
+NerveCell7 received 5 energy from Mitochondria
+Cell NerveCell7 produced energy
+NerveCell8 received 5 energy from Mitochondria
+Cell NerveCell8 produced energy
+MuscleCell35 received 5 energy from Mitochondria
+Cell MuscleCell35 produced energy
+NerveCell7 received 5 energy from Mitochondria
+Cell NerveCell7 produced energy
+NerveCell8 received 5 energy from Mitochondria
+Cell NerveCell8 produced energy
+MuscleCell36 received 5 energy from Mitochondria
+Cell MuscleCell36 produced energy
+NerveCell7 received 5 energy from Mitochondria
+Cell NerveCell7 produced energy
+NerveCell8 received 5 energy from Mitochondria
+Cell NerveCell8 produced energy
+MuscleCell37 received 5 energy from Mitochondria
+Cell MuscleCell37 produced energy
+NerveCell7 received 5 energy from Mitochondria
+Cell NerveCell7 produced energy
+NerveCell8 received 5 energy from Mitochondria
+Cell NerveCell8 produced energy
+MuscleCell38 received 5 energy from Mitochondria
+Cell MuscleCell38 produced energy
+NerveCell7 received 5 energy from Mitochondria
+Cell NerveCell7 produced energy
+NerveCell8 received 5 energy from Mitochondria
+Cell NerveCell8 produced energy
+MuscleCell39 received 5 energy from Mitochondria
+Cell MuscleCell39 produced energy
+NerveCell7 received 5 energy from Mitochondria
+Cell NerveCell7 produced energy
+NerveCell8 received 5 energy from Mitochondria
+Cell NerveCell8 produced energy
+MuscleCell40 received 5 energy from Mitochondria
+Cell MuscleCell40 produced energy
+NerveCell7 received 5 energy from Mitochondria
+Cell NerveCell7 produced energy
+NerveCell8 received 5 energy from Mitochondria
+Cell NerveCell8 produced energy
+MuscleCell41 received 5 energy from Mitochondria
+Cell MuscleCell41 produced energy
+NerveCell9 received 5 energy from Mitochondria
+Cell NerveCell9 produced energy
+NerveCell10 received 5 energy from Mitochondria
+Cell NerveCell10 produced energy
+MuscleCell42 received 5 energy from Mitochondria
+Cell MuscleCell42 produced energy
+NerveCell9 received 5 energy from Mitochondria
+Cell NerveCell9 produced energy
+NerveCell10 received 5 energy from Mitochondria
+Cell NerveCell10 produced energy
+MuscleCell43 received 5 energy from Mitochondria
+Cell MuscleCell43 produced energy
+NerveCell9 received 5 energy from Mitochondria
+Cell NerveCell9 produced energy
+NerveCell10 received 5 energy from Mitochondria
+Cell NerveCell10 produced energy
+MuscleCell44 received 5 energy from Mitochondria
+Cell MuscleCell44 produced energy
+NerveCell9 received 5 energy from Mitochondria
+Cell NerveCell9 produced energy
+NerveCell10 received 5 energy from Mitochondria
+Cell NerveCell10 produced energy
+MuscleCell45 received 5 energy from Mitochondria
+Cell MuscleCell45 produced energy
+NerveCell9 received 5 energy from Mitochondria
+Cell NerveCell9 produced energy
+NerveCell10 received 5 energy from Mitochondria
+Cell NerveCell10 produced energy
+MuscleCell46 received 5 energy from Mitochondria
+Cell MuscleCell46 produced energy
+NerveCell9 received 5 energy from Mitochondria
+Cell NerveCell9 produced energy
+NerveCell10 received 5 energy from Mitochondria
+Cell NerveCell10 produced energy
+MuscleCell47 received 5 energy from Mitochondria
+Cell MuscleCell47 produced energy
+NerveCell9 received 5 energy from Mitochondria
+Cell NerveCell9 produced energy
+NerveCell10 received 5 energy from Mitochondria
+Cell NerveCell10 produced energy
+MuscleCell48 received 5 energy from Mitochondria
+Cell MuscleCell48 produced energy
+NerveCell9 received 5 energy from Mitochondria
+Cell NerveCell9 produced energy
+NerveCell10 received 5 energy from Mitochondria
+Cell NerveCell10 produced energy
+MuscleCell49 received 5 energy from Mitochondria
+Cell MuscleCell49 produced energy
+NerveCell9 received 5 energy from Mitochondria
+Cell NerveCell9 produced energy
+NerveCell10 received 5 energy from Mitochondria
+Cell NerveCell10 produced energy
+MuscleCell50 received 5 energy from Mitochondria
+Cell MuscleCell50 produced energy
+NerveCell9 received 5 energy from Mitochondria
+Cell NerveCell9 produced energy
+NerveCell10 received 5 energy from Mitochondria
+Cell NerveCell10 produced energy
+MuscleCell51 received 5 energy from Mitochondria
+Cell MuscleCell51 produced energy
+NerveCell11 received 5 energy from Mitochondria
+Cell NerveCell11 produced energy
+NerveCell12 received 5 energy from Mitochondria
+Cell NerveCell12 produced energy
+MuscleCell52 received 5 energy from Mitochondria
+Cell MuscleCell52 produced energy
+NerveCell11 received 5 energy from Mitochondria
+Cell NerveCell11 produced energy
+NerveCell12 received 5 energy from Mitochondria
+Cell NerveCell12 produced energy
+MuscleCell53 received 5 energy from Mitochondria
+Cell MuscleCell53 produced energy
+NerveCell11 received 5 energy from Mitochondria
+Cell NerveCell11 produced energy
+NerveCell12 received 5 energy from Mitochondria
+Cell NerveCell12 produced energy
+MuscleCell54 received 5 energy from Mitochondria
+Cell MuscleCell54 produced energy
+NerveCell11 received 5 energy from Mitochondria
+Cell NerveCell11 produced energy
+NerveCell12 received 5 energy from Mitochondria
+Cell NerveCell12 produced energy
+MuscleCell55 received 5 energy from Mitochondria
+Cell MuscleCell55 produced energy
+NerveCell11 received 5 energy from Mitochondria
+Cell NerveCell11 produced energy
+NerveCell12 received 5 energy from Mitochondria
+Cell NerveCell12 produced energy
+MuscleCell56 received 5 energy from Mitochondria
+Cell MuscleCell56 produced energy
+NerveCell11 received 5 energy from Mitochondria
+Cell NerveCell11 produced energy
+NerveCell12 received 5 energy from Mitochondria
+Cell NerveCell12 produced energy
+MuscleCell57 received 5 energy from Mitochondria
+Cell MuscleCell57 produced energy
+NerveCell11 received 5 energy from Mitochondria
+Cell NerveCell11 produced energy
+NerveCell12 received 5 energy from Mitochondria
+Cell NerveCell12 produced energy
+MuscleCell58 received 5 energy from Mitochondria
+Cell MuscleCell58 produced energy
+NerveCell11 received 5 energy from Mitochondria
+Cell NerveCell11 produced energy
+NerveCell12 received 5 energy from Mitochondria
+Cell NerveCell12 produced energy
+MuscleCell59 received 5 energy from Mitochondria
+Cell MuscleCell59 produced energy
+NerveCell11 received 5 energy from Mitochondria
+Cell NerveCell11 produced energy
+NerveCell12 received 5 energy from Mitochondria
+Cell NerveCell12 produced energy
+MuscleCell60 received 5 energy from Mitochondria
+Cell MuscleCell60 produced energy
+NerveCell11 received 5 energy from Mitochondria
+Cell NerveCell11 produced energy
+NerveCell12 received 5 energy from Mitochondria
+Cell NerveCell12 produced energy
+MuscleCell61 received 5 energy from Mitochondria
+Cell MuscleCell61 produced energy
+NerveCell13 received 5 energy from Mitochondria
+Cell NerveCell13 produced energy
+NerveCell14 received 5 energy from Mitochondria
+Cell NerveCell14 produced energy
+MuscleCell62 received 5 energy from Mitochondria
+Cell MuscleCell62 produced energy
+NerveCell13 received 5 energy from Mitochondria
+Cell NerveCell13 produced energy
+NerveCell14 received 5 energy from Mitochondria
+Cell NerveCell14 produced energy
+MuscleCell63 received 5 energy from Mitochondria
+Cell MuscleCell63 produced energy
+NerveCell13 received 5 energy from Mitochondria
+Cell NerveCell13 produced energy
+NerveCell14 received 5 energy from Mitochondria
+Cell NerveCell14 produced energy
+MuscleCell64 received 5 energy from Mitochondria
+Cell MuscleCell64 produced energy
+NerveCell13 received 5 energy from Mitochondria
+Cell NerveCell13 produced energy
+NerveCell14 received 5 energy from Mitochondria
+Cell NerveCell14 produced energy
+MuscleCell65 received 5 energy from Mitochondria
+Cell MuscleCell65 produced energy
+NerveCell13 received 5 energy from Mitochondria
+Cell NerveCell13 produced energy
+NerveCell14 received 5 energy from Mitochondria
+Cell NerveCell14 produced energy
+MuscleCell66 received 5 energy from Mitochondria
+Cell MuscleCell66 produced energy
+NerveCell13 received 5 energy from Mitochondria
+Cell NerveCell13 produced energy
+NerveCell14 received 5 energy from Mitochondria
+Cell NerveCell14 produced energy
+MuscleCell67 received 5 energy from Mitochondria
+Cell MuscleCell67 produced energy
+NerveCell13 received 5 energy from Mitochondria
+Cell NerveCell13 produced energy
+NerveCell14 received 5 energy from Mitochondria
+Cell NerveCell14 produced energy
+MuscleCell68 received 5 energy from Mitochondria
+Cell MuscleCell68 produced energy
+NerveCell13 received 5 energy from Mitochondria
+Cell NerveCell13 produced energy
+NerveCell14 received 5 energy from Mitochondria
+Cell NerveCell14 produced energy
+MuscleCell69 received 5 energy from Mitochondria
+Cell MuscleCell69 produced energy
+NerveCell13 received 5 energy from Mitochondria
+Cell NerveCell13 produced energy
+NerveCell14 received 5 energy from Mitochondria
+Cell NerveCell14 produced energy
+MuscleCell70 received 5 energy from Mitochondria
+Cell MuscleCell70 produced energy
+NerveCell13 received 5 energy from Mitochondria
+Cell NerveCell13 produced energy
+NerveCell14 received 5 energy from Mitochondria
+Cell NerveCell14 produced energy
+MuscleCell71 received 5 energy from Mitochondria
+Cell MuscleCell71 produced energy
+NerveCell15 received 5 energy from Mitochondria
+Cell NerveCell15 produced energy
+NerveCell16 received 5 energy from Mitochondria
+Cell NerveCell16 produced energy
+MuscleCell72 received 5 energy from Mitochondria
+Cell MuscleCell72 produced energy
+NerveCell15 received 5 energy from Mitochondria
+Cell NerveCell15 produced energy
+NerveCell16 received 5 energy from Mitochondria
+Cell NerveCell16 produced energy
+MuscleCell73 received 5 energy from Mitochondria
+Cell MuscleCell73 produced energy
+NerveCell15 received 5 energy from Mitochondria
+Cell NerveCell15 produced energy
+NerveCell16 received 5 energy from Mitochondria
+Cell NerveCell16 produced energy
+MuscleCell74 received 5 energy from Mitochondria
+Cell MuscleCell74 produced energy
+NerveCell15 received 5 energy from Mitochondria
+Cell NerveCell15 produced energy
+NerveCell16 received 5 energy from Mitochondria
+Cell NerveCell16 produced energy
+MuscleCell75 received 5 energy from Mitochondria
+Cell MuscleCell75 produced energy
+NerveCell15 received 5 energy from Mitochondria
+Cell NerveCell15 produced energy
+NerveCell16 received 5 energy from Mitochondria
+Cell NerveCell16 produced energy
+MuscleCell76 received 5 energy from Mitochondria
+Cell MuscleCell76 produced energy
+NerveCell15 received 5 energy from Mitochondria
+Cell NerveCell15 produced energy
+NerveCell16 received 5 energy from Mitochondria
+Cell NerveCell16 produced energy
+MuscleCell77 received 5 energy from Mitochondria
+Cell MuscleCell77 produced energy
+NerveCell15 received 5 energy from Mitochondria
+Cell NerveCell15 produced energy
+NerveCell16 received 5 energy from Mitochondria
+Cell NerveCell16 produced energy
+MuscleCell78 received 5 energy from Mitochondria
+Cell MuscleCell78 produced energy
+NerveCell15 received 5 energy from Mitochondria
+Cell NerveCell15 produced energy
+NerveCell16 received 5 energy from Mitochondria
+Cell NerveCell16 produced energy
+MuscleCell79 received 5 energy from Mitochondria
+Cell MuscleCell79 produced energy
+NerveCell15 received 5 energy from Mitochondria
+Cell NerveCell15 produced energy
+NerveCell16 received 5 energy from Mitochondria
+Cell NerveCell16 produced energy
+MuscleCell80 received 5 energy from Mitochondria
+Cell MuscleCell80 produced energy
+NerveCell15 received 5 energy from Mitochondria
+Cell NerveCell15 produced energy
+NerveCell16 received 5 energy from Mitochondria
+Cell NerveCell16 produced energy
