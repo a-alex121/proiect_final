@@ -4,22 +4,21 @@
 
 class NerveCell : public Cell {
 public:
-    NerveCell(std::string name, int energy);
+    NerveCell();
     NerveCell(const NerveCell& other);
     ~NerveCell();
 
-    static std::string GetType();
+    std::string GetType() const;
 
-    void TransmitSignal() const;
-	void ActivateMuscle(MuscleCell* muscle_cell) const;
+    void TransmitSignal(NerveCell* target);
+	void ActivateMuscle(MuscleCell* muscle_cell);
 
 
     Cell* Divide();
 
-    void Display() const;
-
 protected:
+	static int next_id;
 
 private:
-    static std::string type;
+    static const std::string type;
 };

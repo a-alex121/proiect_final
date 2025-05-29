@@ -1,24 +1,26 @@
 #pragma once
 
 #include <iostream>
+#include <string>
 #include "mitochondria.h"
 #include "logger.h"
 
 class Cell {
 
 public:
-   Cell(std::string name, int energy);
+   Cell(int energy, const int id);
    Cell(const Cell& other);
    virtual ~Cell();
 
-   static std::string GetType();
+   int GetId() const;
+   virtual std::string GetType() const;
+   virtual std::string GetName() const;
+
    static void SetMitochondrialEnergy(int energy);
    static int GetMitochondrialEnergy();
 
    int GetEnergy() const;
    void SetEnergy(int energy);
-
-   std::string GetName() const;
 
    virtual void Display() const;
    virtual Cell* Divide() = 0;
@@ -26,7 +28,8 @@ public:
    void ProduceEnergy();
 
 protected:
-	std::string name;
+	const int id;
+	static int next_id;
 	int energy;
 
 private:

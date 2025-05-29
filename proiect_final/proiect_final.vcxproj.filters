@@ -40,6 +40,12 @@
     <Filter Include="Header Files\Tissues">
       <UniqueIdentifier>{91d1d297-470a-49a7-ae5c-1b602408d2b4}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\Macro Structures">
+      <UniqueIdentifier>{382fe94a-32c1-4cc0-a263-96a50d26154b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Macro Structures">
+      <UniqueIdentifier>{1a45935f-f85f-46ce-9a4e-91e62e895833}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\src\cell.cpp">
@@ -54,16 +60,7 @@
     <ClCompile Include="..\src\nerve_cell.cpp">
       <Filter>Source Files\Cells</Filter>
     </ClCompile>
-    <ClCompile Include="..\src\tissue.cpp">
-      <Filter>Source Files\Tissues</Filter>
-    </ClCompile>
     <ClCompile Include="..\src\pathogen.cpp">
-      <Filter>Source Files\Pathogens</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\bacteria.cpp">
-      <Filter>Source Files\Pathogens</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\virus.cpp">
       <Filter>Source Files\Pathogens</Filter>
     </ClCompile>
     <ClCompile Include="..\src\mitochondria.cpp">
@@ -75,8 +72,14 @@
     <ClCompile Include="..\src\main.cpp">
       <Filter>Source Files\Main</Filter>
     </ClCompile>
-    <ClCompile Include="..\src\muscle_tissue.cpp">
-      <Filter>Source Files\Tissues</Filter>
+    <ClCompile Include="..\src\muscle.cpp">
+      <Filter>Source Files\Macro Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\motor_pathway.cpp">
+      <Filter>Source Files\Macro Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\human.cpp">
+      <Filter>Source Files\Macro Structures</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -101,17 +104,14 @@
     <ClInclude Include="..\include\pathogen.h">
       <Filter>Header Files\Pathogens</Filter>
     </ClInclude>
-    <ClInclude Include="..\include\bacteria.h">
-      <Filter>Header Files\Pathogens</Filter>
+    <ClInclude Include="..\include\muscle.h">
+      <Filter>Header Files\Macro Structures</Filter>
     </ClInclude>
-    <ClInclude Include="..\include\virus.h">
-      <Filter>Header Files\Pathogens</Filter>
+    <ClInclude Include="..\include\motor_pathway.h">
+      <Filter>Header Files\Macro Structures</Filter>
     </ClInclude>
-    <ClInclude Include="..\include\tissue.h">
-      <Filter>Header Files\Tissues</Filter>
-    </ClInclude>
-    <ClInclude Include="..\include\muscle_tissue.h">
-      <Filter>Header Files\Tissues</Filter>
+    <ClInclude Include="..\include\human.h">
+      <Filter>Header Files\Macro Structures</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

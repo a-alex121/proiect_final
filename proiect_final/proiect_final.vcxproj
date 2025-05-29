@@ -128,8 +128,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\src\bacteria.cpp" />
     <ClCompile Include="..\src\cell.cpp" />
+    <ClCompile Include="..\src\human.cpp" />
     <ClCompile Include="..\src\immune_cell.cpp" />
     <ClCompile Include="..\src\logger.cpp" />
     <ClCompile Include="..\src\main.cpp">
@@ -137,24 +137,22 @@
     </ClCompile>
     <ClCompile Include="..\src\mitochondria.cpp" />
     <ClCompile Include="..\src\muscle_cell.cpp" />
-    <ClCompile Include="..\src\muscle_tissue.cpp" />
     <ClCompile Include="..\src\nerve_cell.cpp" />
     <ClCompile Include="..\src\pathogen.cpp" />
-    <ClCompile Include="..\src\tissue.cpp" />
-    <ClCompile Include="..\src\virus.cpp" />
+    <ClCompile Include="..\src\muscle.cpp" />
+    <ClCompile Include="..\src\motor_pathway.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\include\bacteria.h" />
     <ClInclude Include="..\include\cell.h" />
+    <ClInclude Include="..\include\human.h" />
+    <ClInclude Include="..\include\motor_pathway.h" />
+    <ClInclude Include="..\include\muscle.h" />
     <ClInclude Include="..\include\immune_cell.h" />
     <ClInclude Include="..\include\logger.h" />
     <ClInclude Include="..\include\mitochondria.h" />
     <ClInclude Include="..\include\muscle_cell.h" />
-    <ClInclude Include="..\include\muscle_tissue.h" />
     <ClInclude Include="..\include\nerve_cell.h" />
     <ClInclude Include="..\include\pathogen.h" />
-    <ClInclude Include="..\include\tissue.h" />
-    <ClInclude Include="..\include\virus.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="log.txt" />

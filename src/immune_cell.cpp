@@ -1,17 +1,16 @@
 #include "immune_cell.h"
 #include <iostream>
 
-ImmuneCell::ImmuneCell(std::string name, int energy) : Cell(name, energy) {}
+ImmuneCell::ImmuneCell() : Cell(10, ImmuneCell::next_id++) {}
 ImmuneCell::ImmuneCell(const ImmuneCell& other) : Cell(other) {}
-ImmuneCell::~ImmuneCell() {}
+ImmuneCell::~ImmuneCell() { std::cout << GetName() << " destroyed. \n"; }
 
 void ImmuneCell::AttackPathogen(Pathogen* pathogen) {
-    std::cout << "ImmuneCell "<< name <<" attacks pathogen "<< pathogen->GetName() <<"\n";
-    pathogen->SetDamage(pathogen->GetDamage() - 2);
+    std::cout << GetName() <<" attacks pathogen "<< pathogen->GetName() <<"\n";
+	pathogen->SetEnergy(pathogen->GetEnergy() - 5);
+    delete this;
 }
-void ImmuneCell::Display() const {
-    std::cout << "Display ImmuneCell " << name << " with energy: " << energy << "\n";
-}
+
 Cell* ImmuneCell::Divide() {
     if (energy >= 10) {
         energy /= 2;
@@ -20,5 +19,6 @@ Cell* ImmuneCell::Divide() {
     return nullptr;
 }
 
-std::string ImmuneCell::type = "Immune";
-std::string ImmuneCell::GetType() { return type; }
+int ImmuneCell::next_id = 1;
+
+std::string ImmuneCell::GetType() const { return "ImmuneCell"; }

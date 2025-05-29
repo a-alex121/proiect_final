@@ -1,22 +1,30 @@
 #include "muscle_cell.h"
 #include <iostream>
 
-MuscleCell::MuscleCell(std::string name, int energy) : Cell(name, energy) {}
+MuscleCell::MuscleCell() : Cell(100, MuscleCell::next_id++) {}
 MuscleCell::MuscleCell(const MuscleCell& other) : Cell(other) {}
-MuscleCell::~MuscleCell() {}
+MuscleCell::~MuscleCell() { std::cout << GetName() << " destroyed. \n"; }
 
 void MuscleCell::Contract(){
-    std::cout << "MuscleCell " << name <<" contracts\n";
-	this->SetEnergy(this->GetEnergy() - 1);
-}
-
-void MuscleCell::Display() const {
-    std::cout << "Display MuscleCell " << name << " with energy : " << energy << "\n";
+    std::cout << GetName() << " contracts\n";
+	this->ConsumeEnergy();
+	this->SetMitochondrialEnergy(this->GetMitochondrialEnergy() + 1); //creste potentialul de producere a energiei pentru mitocondrii
 }
 
 Cell* MuscleCell::Divide() {
     return nullptr;
 }
 
-std::string MuscleCell::type = "Muscle";
-std::string MuscleCell::GetType() { return type; }
+void MuscleCell::ConsumeEnergy() {
+	if (this->GetEnergy() > 0) {
+		this->SetEnergy(this->GetEnergy() - 2);
+		std::cout << GetName() << " consumed energy, remaining energy: " << this->GetEnergy() << "\n";
+	}
+	else {
+		std::cout << GetName() << " has no energy left to consume.\n";
+	}
+}
+
+int MuscleCell::next_id = 1;
+
+std::string MuscleCell::GetType() const { return "MuscleCell"; }

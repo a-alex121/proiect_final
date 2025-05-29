@@ -1,20 +1,24 @@
 #include "nerve_cell.h"
 #include <iostream>
 
-NerveCell::NerveCell(std::string name, int energy) : Cell(name, energy) {}
+NerveCell::NerveCell() : Cell(70, NerveCell::next_id++) {}
 NerveCell::NerveCell(const NerveCell& other) : Cell(other) {}
-NerveCell::~NerveCell() {}
+NerveCell::~NerveCell() { std::cout << GetName() << " destroyed. \n"; }
 
-void NerveCell::TransmitSignal() const {
-    std::cout << "NerveCell transmits nerve signal\n";
+void NerveCell::TransmitSignal(NerveCell* target) {
+    std::cout << GetName() << " transmits signal to " << target->GetName() << std::endl;
+	this->SetEnergy(this->GetEnergy() - 1);
 }
-void NerveCell::ActivateMuscle(MuscleCell* muscle_cell) const {
-    std::cout << "NerveCell sends signal to MuscleCell " << muscle_cell->GetName() <<"\n";
+
+void NerveCell::ActivateMuscle(MuscleCell* muscle_cell) {
+    std::cout << GetName() << " sends signal to " << muscle_cell->GetName() <<"\n";
+	this->SetEnergy(this->GetEnergy() - 1);
 }
 
 Cell* NerveCell::Divide() {
     return nullptr;
 }
 
-std::string NerveCell::type = "Nerve";
-std::string NerveCell::GetType() { return type; }
+int NerveCell::next_id = 1;
+
+std::string NerveCell::GetType() const { return "NerveCell"; }

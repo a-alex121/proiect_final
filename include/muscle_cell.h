@@ -4,18 +4,19 @@
 
 class MuscleCell : public Cell {
 public:
-    MuscleCell(std::string name, int energy);
+    MuscleCell();
     MuscleCell(const MuscleCell& other);
     ~MuscleCell();
 
-	static std::string GetType();
+    std::string GetType() const;
 
     void Contract();
-    void Display() const;
     Cell* Divide();
 
 protected:
+    static int next_id;
 
 private:
-    static std::string type;
+    static const std::string type;
+    void ConsumeEnergy();
 };

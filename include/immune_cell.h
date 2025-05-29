@@ -5,18 +5,18 @@
 
 class ImmuneCell : public Cell {
 public:
-    ImmuneCell(std::string name, int energy);
+    ImmuneCell();
     ImmuneCell(const ImmuneCell& other);
     ~ImmuneCell();
 
-    static std::string GetType();
+    std::string GetType() const;
 
     void AttackPathogen(Pathogen* pathogen);
-    void Display() const;
     Cell* Divide();
 
 protected:
+	static int next_id;
 
 private:
-    static std::string type;
+    static const std::string type;
 };

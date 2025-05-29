@@ -7,24 +7,24 @@ class Cell;
 class Pathogen {
 
 public:
-    Pathogen(std::string name, int damage);
+    Pathogen(std::string name, int energy);
     virtual ~Pathogen();
 
 	static std::string GetType();
 
-    int GetDamage() const;
-    void SetDamage(int damage);
+    int GetEnergy() const;
+    void SetEnergy(int energy);
 
 	std::string GetName() const;
 
     virtual void Attack(Cell* cell);
-    virtual void Display() const = 0;
+    virtual void Display();
 
 protected:
-    std::string name;
-    int damage;
-
+    
 private:
 	static std::string type;
+	std::string name;
+	int energy;
 
 };
