@@ -11,9 +11,6 @@ void NerveCell::TransmitSignal() const {
 void NerveCell::ActivateMuscle(MuscleCell* muscle_cell) const {
     std::cout << "NerveCell sends signal to MuscleCell " << muscle_cell->GetName() <<"\n";
 }
-void NerveCell::Display() const {
-    std::cout << "Display NerveCell " << name << " with energy: " << energy << "\n";
-}
 
 Cell* NerveCell::Divide() {
     return nullptr;
